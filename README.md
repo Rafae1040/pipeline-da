@@ -24,4 +24,4 @@ Por fim, na etapa de apresentação, utilizamos consultas SQL para extrair infor
 
 # Conclusão:
 
-Em resumo, o projeto de Chatbots e Análise Exploratória de Dados nos permite criar um chatbot personalizado usando a API do Telegram e realizar análises em tempo real para obter insights valiosos para o negócio. Esperamos que esse projeto seja útil para empresas que buscam melhorar a experiência dos usuários em seus chatbots e obter vantagem competitiva no mercado.
+Em resumo, o projeto de Chatbots e Análise Exploratória de Dados nos permite criar um chatbot personalizado usando a API do Telegram e realizar análises em tempo real para obter insights valiosos para o negócio. Espero que esse projeto seja útil para empresas que buscam melhorar a experiência dos usuários em seus chatbots e obter vantagem competitiva no mercado.
