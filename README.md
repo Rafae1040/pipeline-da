@@ -9,7 +9,7 @@ Este projeto tem como foco a criação de um chatbot interativo utilizando a API
 ## 📝 Introdução
 Antes de mergulharmos no projeto, é essencial entender dois conceitos-chave:
 
-📌 Dados Transacionais: São aqueles gerados a partir de atividades diárias, como compras, vendas e envio de mensagens.
+### 📌 Dados Transacionais: São aqueles gerados a partir de atividades diárias, como compras, vendas e envio de mensagens.
 📊 Dados Analíticos: São extraídos dos dados transacionais e usados para gerar insights estratégicos.
 Nosso projeto se baseia nessa transformação, coletando e analisando os dados das interações dos usuários com o chatbot.
 ---
