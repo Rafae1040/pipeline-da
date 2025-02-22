@@ -14,7 +14,8 @@ Antes de mergulharmos no projeto, é essencial entender dois conceitos-chave:
 Nosso projeto se baseia nessa transformação, coletando e analisando os dados das interações dos usuários com o chatbot.
 
 
-⚙️ Metodologia
+## ⚙️ Metodologia
+
 ## 1️⃣ Criação do Chatbot 🤖
 Utilizamos a API de bots do Telegram para desenvolver um chatbot personalizado, garantindo uma experiência intuitiva e prática para os usuários.
 
