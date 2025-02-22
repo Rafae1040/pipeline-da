@@ -2,12 +2,11 @@
 
 ---
 
-##🎯 Objetivo
+## 🎯 Objetivo
 Este projeto tem como foco a criação de um chatbot interativo utilizando a API do Telegram, além de realizar análises exploratórias de dados em tempo real para obter insights valiosos. Para garantir escalabilidade e eficiência, utilizamos serviços da AWS no processamento desses dados.
 
 ---
-
-##📝 Introdução
+## 📝 Introdução
 Antes de mergulharmos no projeto, é essencial entender dois conceitos-chave:
 
 📌 Dados Transacionais: São aqueles gerados a partir de atividades diárias, como compras, vendas e envio de mensagens.
