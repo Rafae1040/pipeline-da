@@ -15,8 +15,9 @@ Antes de mergulharmos no projeto, é essencial entender dois conceitos-chave:
 
 📂 O projeto se baseia nessa transformação, coletando e analisando os dados das interações dos usuários com o chatbot.
 
+--- 
 
-## ⚙️ Metodologia
+## ⚙️ Metodologia:
 
 ## 1️⃣ Criação do Chatbot 🤖
 Utilizamos a API de bots do Telegram para desenvolver um chatbot personalizado, garantindo uma experiência intuitiva e prática para os usuários.
@@ -49,7 +50,7 @@ Também utilizamos SQL para identificar padrões e gerar insights estratégicos.
 
 ---
 
-🏁 Conclusão:
+## 🏁 Conclusão:
 Esse projeto demonstra o poder da integração entre chatbots e análise de dados usando a AWS! 🚀 Empresas podem usar esse modelo para:
 
 📈 Melhorar a experiência dos usuários do chatbot.
