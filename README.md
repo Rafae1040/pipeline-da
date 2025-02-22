@@ -41,10 +41,10 @@ Após a coleta, aplicamos um pipeline de ETL utilizando AWS Lambda e Python para
 
 📌 Transformar os dados, organizando e limpando as informações.
 
-📌 Carregar os dados em um Amazon S3 ou Amazon RDS para armazenamento e posterior análise.
+📌 Carregar os dados em um Amazon S3 para armazenamento e posterior análise.
 
 ## 4️⃣ Análise e Visualização dos Dados 📊
-Utilizamos AWS Athena para consultas em grandes volumes de dados e Amazon QuickSight para criar visualizações interativas e relatórios gerenciais. 
+Utilizamos AWS Athena para consultas em grandes volumes de dados.
 
 Também utilizamos SQL para identificar padrões e gerar insights estratégicos.
 
