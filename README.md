@@ -22,15 +22,20 @@ Utilizamos a API de bots do Telegram para desenvolver um chatbot personalizado, 
 ## 2️⃣ Coleta de Dados em Tempo Real com AWS Lambda ⚡
 Através do método getUpdates da API do Telegram, capturamos informações como:
 ✅ Data e hora das mensagens 📆
+
 ✅ ID do usuário 👤
+
 ✅ Mensagem enviada 💬
+
 
 Para processar esses dados de forma escalável e sem necessidade de servidores, utilizamos o AWS Lambda, que executa funções sob demanda conforme novas mensagens chegam.
 
 ## 3️⃣ Processo ETL – Extração, Transformação e Carregamento 🔄
 Após a coleta, aplicamos um pipeline de ETL utilizando AWS Lambda e Python para:
 📌 Extrair os dados diretamente da API do Telegram.
+
 📌 Transformar os dados, organizando e limpando as informações.
+
 📌 Carregar os dados em um Amazon S3 ou Amazon RDS para armazenamento e posterior análise.
 
 ## 4️⃣ Análise e Visualização dos Dados 📊
