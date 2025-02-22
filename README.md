@@ -1,27 +1,43 @@
-# Pipeline de dados do Telegram
-
-Este projeto tem como objetivo criar um chatbot usando a API do Telegram e realizar análises exploratórias de dados em tempo real.
+# 📊 Pipeline de Dados do Telegram com AWS
 
 ---
 
-# Introdução:
-
-É importante destacar a diferença entre dados transacionais e analíticos. Os dados transacionais são gerados a partir de transações diárias, como compras, vendas, envios de mensagens, entre outros. Já os dados analíticos são criados a partir da análise desses dados transacionais, com o objetivo de gerar insights para as empresas.
-
----
-
-# Metodologia:
-
-Foi utilizado a API de bots do Telegram para criar um sistema transacional de envio e recebimento de mensagens. Essa API nos permite criar um chatbot personalizado, com uma interface amigável e de fácil uso para os usuários.
-
-Na etapa de análise exploratória de dados, utilizamos o método getUpdates da API de bots do Telegram para obter dados em tempo real das interações dos usuários com o chatbot. Esse método retorna informações como data e hora das mensagens, identificação do usuário, mensagem enviada, entre outras informações importantes para a análise dos dados.
-
-Após a ingestão dos dados, realizamos o processo de ETL (Extração, Transformação e Carregamento) para preparar os dados para a análise. Utilizei linguagem de programação Python para extrair, transformar e carregar os dados em um formato adequado para a análise.
-
-Por fim, na etapa de apresentação, utilizamos consultas SQL para extrair informações importantes dos dados e visualizações para apresentar os resultados de forma mais clara e objetiva. Dessa forma, é possível gerar insights valiosos sobre o comportamento dos usuários do chatbot e melhorar a experiência deles.
+##🎯 Objetivo
+Este projeto tem como foco a criação de um chatbot interativo utilizando a API do Telegram, além de realizar análises exploratórias de dados em tempo real para obter insights valiosos. Para garantir escalabilidade e eficiência, utilizamos serviços da AWS no processamento desses dados.
 
 ---
 
-# Conclusão:
+##📝 Introdução
+Antes de mergulharmos no projeto, é essencial entender dois conceitos-chave:
 
-Em resumo, o projeto de Chatbots e Análise Exploratória de Dados nos permite criar um chatbot personalizado usando a API do Telegram e realizar análises em tempo real para obter insights valiosos para o negócio. Espero que esse projeto seja útil para empresas que buscam melhorar a experiência dos usuários em seus chatbots e obter vantagem competitiva no mercado.
+📌 Dados Transacionais: São aqueles gerados a partir de atividades diárias, como compras, vendas e envio de mensagens.
+📊 Dados Analíticos: São extraídos dos dados transacionais e usados para gerar insights estratégicos.
+Nosso projeto se baseia nessa transformação, coletando e analisando os dados das interações dos usuários com o chatbot.
+
+⚙️ Metodologia
+1️⃣ Criação do Chatbot 🤖
+Utilizamos a API de bots do Telegram para desenvolver um chatbot personalizado, garantindo uma experiência intuitiva e prática para os usuários.
+
+2️⃣ Coleta de Dados em Tempo Real com AWS Lambda ⚡
+Através do método getUpdates da API do Telegram, capturamos informações como:
+✅ Data e hora das mensagens 📆
+✅ ID do usuário 👤
+✅ Mensagem enviada 💬
+
+Para processar esses dados de forma escalável e sem necessidade de servidores, utilizamos o AWS Lambda, que executa funções sob demanda conforme novas mensagens chegam.
+
+3️⃣ Processo ETL – Extração, Transformação e Carregamento 🔄
+Após a coleta, aplicamos um pipeline de ETL utilizando AWS Lambda e Python para:
+📌 Extrair os dados diretamente da API do Telegram.
+📌 Transformar os dados, organizando e limpando as informações.
+📌 Carregar os dados em um Amazon S3 ou Amazon RDS para armazenamento e posterior análise.
+
+4️⃣ Análise e Visualização dos Dados 📊
+Utilizamos AWS Athena para consultas em grandes volumes de dados e Amazon QuickSight para criar visualizações interativas e relatórios gerenciais. Também utilizamos SQL para identificar padrões e gerar insights estratégicos.
+
+
+🏁 Conclusão:
+Esse projeto demonstra o poder da integração entre chatbots e análise de dados usando a AWS! 🚀 Empresas podem usar esse modelo para:
+📈 Melhorar a experiência dos usuários do chatbot.
+💡 Obter insights estratégicos sobre o comportamento dos clientes.
+🎯 Aumentar a competitividade no mercado.
